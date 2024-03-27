@@ -1,5 +1,5 @@
-# Mini-computer-JB74
-Mini-computer for Suzuki Jimny JB74
+# Mini-computer-JB74.
+Mini-computer for Suzuki Jimny JB74.
 This computer is built on Arduino Nano V3 and CAN Bus MCP2515.
 It allows you to monitor the temperature of the engine and automatic transmission. 
 It also displays the tire pressure values of the car (only when driving). 
