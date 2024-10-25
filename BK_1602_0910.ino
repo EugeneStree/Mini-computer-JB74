@@ -97,11 +97,11 @@ void loop() {
     lcd.print(text_dis_6);
     }
     if ((Mess_2_out4) == 140) {                                     //Установка температуры Alarm 100С (140-40)
-      digitalWrite(4, 0);                                           //Выход бузера  в 0
+      digitalWrite(4, 1);                                           //Выход бузера  в 1
       uint16_t ms = millis();                                       //Функция задержки времени
       if (ms - tmr > 500) {                                         //Пауза пол секунды
         tmr = ms;
-        digitalWrite(4, 1);                                         //Выход бузера в 1
+        digitalWrite(4, 0);                                         //Выход бузера в 0
       }
     }
   }
